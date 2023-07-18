@@ -70,7 +70,7 @@ function Card() {
           <img className="siteimage" src={art} alt="" />
           <div className="content">
             <p className="desc">A premier platform for buying and selling verified and authentic paintings</p>
-            <a style={{position:"relative", top:"30px"}} className="action" href="#">
+            <a style={{position:"relative", top:"10px"}} className="action" href="#">
               Visit Site
               <span aria-hidden="true">→</span>
             </a>
