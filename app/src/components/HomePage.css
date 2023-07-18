@@ -1,16 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Heebo:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 .cartImage{
-    width:1200px;
-     height:500px;
-      top:85px;
+    width:550px;
+     height:450px;
+      top:105px;
       position:relative;
-      left: 70px;
+      left: 300px;
 }
+/* .cartImage {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  top: 30px;
+} */
 
 .exp{
     position: relative;
-    top: -370px;
+    top: -320px;
     font-family: "Heebo";
     left: -600px;
 }
@@ -20,12 +27,12 @@
     height: 60px;
     position: relative;
     left: 50px;
-    top:-30px;
+    top:50px;
     border-radius: 10px;
     background-color: rgb(32, 1, 119);
     cursor: pointer;
     border: none;
-    font-family: Heebo;
+    font-family: "Montserrat", sans-serif;
     color: white;
 }
 
@@ -89,7 +96,7 @@
     height: 1100px;
     background-image: linear-gradient(to right, #054981, #032245);
     position: relative;
-    top: -20px;
+    top: 100px;
     left: 80px;
     border-radius: 10px;
   }

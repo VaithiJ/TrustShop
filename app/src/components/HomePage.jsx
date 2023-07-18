@@ -1,6 +1,6 @@
 import React from 'react'
 import NavBar from './Reusables/NavBar/NavBar'
-import black from "../Images/ss.png"
+import black from "../Images/econ.gif"
 import earth from "../Images/black.jpg"
 import doll from "../Images/doll.jpg"
 import "./HomePage.css"
@@ -13,10 +13,16 @@ const HomePage = () => {
 
     const gotoshop = () => {
         navigate("/shop")
-      };  return (
+      };  
+      
+      
+      return (
     <div>
         <NavBar/>
+        <div>
+            <div className='gradient-overlay'></div>
         <img  className='cartImage' src={black}/>
+        </div>
         <div className='exp'>
         <h2 className='allinone'>All in one E-commerce</h2>
         <h4 className='buysell'>Buy and sell any item for different categories</h4>
@@ -52,10 +58,10 @@ const HomePage = () => {
             </div>
             <br/>
             <br/>
-            <h1 style={{position:"relative", left:"-398px"}}>Ecommerce in our platform</h1>
-            <div style={{width:"1200px", position:"relative", left:"70px"}} className='linee'></div>
+            <h1 style={{position:"relative", left:"-398px", top:"100px"}}>Ecommerce in our platform</h1>
+            <div style={{width:"1200px", position:"relative", left:"70px", top:"80px"}} className='linee'></div>
 
-            <Carousel/>
+            <Carousel />
         </div>
     </div>
   )
