@@ -7,6 +7,7 @@ import Swal from "sweetalert2";
 import jwt_decode from "jwt-decode";
 import { useCookies } from "react-cookie";
 import axios from "axios"
+import BizHub from "../../../Images/BizHub.png"
 
 const NavBar = () => {
   const [visible, setVisible] = useState(true);
@@ -25,7 +26,7 @@ const NavBar = () => {
     <nav className={`nav-container ${visible ? "visible" : "hidden"}`}>
       <div className="logo">
         <Link to="/">
-          <img  alt="Your Logo" className="logo-image" />
+          <img  src={BizHub}  alt="Your Logo" className="logo-image" />
         </Link>
       </div>
       <div className="sub-nav">
