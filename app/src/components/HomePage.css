@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Heebo:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
 .cartImage{
-    width:1200px;
-     height:500px;
-      top:85px;
+    width:550px;
+     height:450px;
+      top:105px;
       position:relative;
-      left: 70px;
+      left: 300px;
 }
 /* .cartImage {
   position: relative;
