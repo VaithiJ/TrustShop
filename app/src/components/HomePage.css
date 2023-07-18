@@ -1,12 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Heebo:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 .cartImage{
-    width:550px;
-     height:450px;
-      top:105px;
+    width:1200px;
+     height:500px;
+      top:85px;
       position:relative;
-      left: 300px;
+      left: 70px;
 }
 /* .cartImage {
   position: relative;
@@ -17,7 +16,7 @@
 
 .exp{
     position: relative;
-    top: -320px;
+    top: -370px;
     font-family: "Heebo";
     left: -600px;
 }
@@ -27,19 +26,49 @@
     height: 60px;
     position: relative;
     left: 50px;
-    top:50px;
+    top:-30px;
     border-radius: 10px;
     background-color: rgb(32, 1, 119);
     cursor: pointer;
     border: none;
-    font-family: "Montserrat", sans-serif;
+    font-family: Heebo;
     color: white;
 }
 
-.viewmoree:hover{
-    background-color: rgb(58, 146, 218);
+.viewmoree:hover {
+  background-color: rgb(58, 146, 218);
+} */
+
+.viewmoree {
+  padding-left: 33px;
+  padding-right: 33px;
+  padding-bottom: 16px;
+  padding-top: 11px;
+  border-radius: 9px;
+  background: #d5f365;
+  border: none;
+  font-family: inherit;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.4s;
+  margin-top: 50px;
+  margin-left: 530px;
+  width: 130px;
+  height: 40px;
 }
 
+.viewmoree:hover {
+  box-shadow: 7px 5px 56px -14px #c3d900;
+}
+
+.viewmoree:active {
+  transform: scale(0.97);
+  box-shadow: 7px 5px 56px -10px #c3d900;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
 .allinone {
     position: relative;
     left: 600px;
@@ -96,7 +125,7 @@
     height: 1100px;
     background-image: linear-gradient(to right, #054981, #032245);
     position: relative;
-    top: 100px;
+    top: -20px;
     left: 80px;
     border-radius: 10px;
   }
@@ -109,25 +138,22 @@
     top: -16px;
 }
 
+.benefits {
+  background-color: #f3f3f3;
+  border-radius: 10px;
+  position: relative;
+  top: 150px;
+  width: 1050px;
+  height: 600px;
+  left: 75px;
+}
 
-  .benefits{
-    background-color: #f3f3f3;
-    border-radius: 10px;
-    position: relative;
-    top: 50px;
-    width: 1050px;
-    height: 600px;
-    left: 75px;
+.bendes {
+  display: flex;
+  flex-direction: row;
+}
 
-  }
-
-
-  .bendes{
-    display: flex;
-    flex-direction: row;
-  }
-
-  .bentext{
-    position: relative;
-    left: -200px;
-  }
+.bentext {
+  position: relative;
+  left: -200px;
+}
