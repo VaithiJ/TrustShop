@@ -45,7 +45,7 @@ function Card() {
               A blockchain-powered marketplace for verified business listings,
               ensuring trust and transparency.
             </p>
-            <a style={{position:"relative", top:"50px"}} className="action" href="#">
+            <a style={{position:"relative", top:"25px"}} className="action" href="#">
               Visit Site
               <span aria-hidden="true">→</span>
             </a>
