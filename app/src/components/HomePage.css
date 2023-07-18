@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+.cartImage{
+    width:1200px;
+     height:500px;
+      top:85px;
+      position:relative;
+      left: 70px;
+}
+
+.exp{
+    position: relative;
+    top: -370px;
+    font-family: "Heebo";
+    left: -600px;
+}
+
+.viewmoree{
+    width: 150px;
+    height: 60px;
+    position: relative;
+    left: 70px;
+    top:-30px;
+    border-radius: 10px;
+    background-color: rgb(32, 1, 119);
+    cursor: pointer;
+    border: none;
+    font-family: Oxygen;
+    color: white;
+}
+
+.viewmoree:hover{
+    background-color: rgb(58, 146, 218);
+}
+
+.allinone {
+    position: relative;
+    left: 600px;
+    font-size: 60px;
+    width: 700px;
+    color: #054981;
+    animation: colorAnimation 4s infinite alternate;
+  }
+  
+  @keyframes colorAnimation {
+    0% {
+      color: #54a3ff; /* Light blue */
+    }
+    50% {
+      color: #0f316e; /* Dark blue */
+    }
+    100% {
+      color: #54a3ff; /* Light blue */
+    }
+  }
+  
+
+  .buysell {
+    position: relative;
+    left: 620px;
+    width: 500px;
+    color: #054981;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    border-width: 5px;
+    top: -50px;
+    font-size: 20px;
+  }
+  
+  @keyframes borderAnimation {
+    0% {
+      border-color: transparent;
+    }
+    25% {
+      border-color: transparent;
+      box-shadow: 0 0 10px 10px #54a3ff; /* Blue shadow */
+    }
+    75% {
+      border-color: transparent;
+      box-shadow: 0 0 10px 10px #fff; /* White shadow */
+    }
+    100% {
+      border-color: transparent;
+    }
+  }
+  
+  .abtcard{
+    width: 1200px;
+    height: 1100px;
+    background-image: linear-gradient(to right, #054981, #032245);
+    position: relative;
+    top: -20px;
+    left: 80px;
+    border-radius: 10px;
+  }
+.linee{
+    width: 580px;
+    height: 1px;
+    background-color: red;
+    position: relative;
+    left: 40px;
+    top: -16px;
+}
+
+
+  .benefits{
+    background-color: #f3f3f3;
+    border-radius: 10px;
+    position: relative;
+    top: 50px;
+    width: 1050px;
+    height: 600px;
+    left: 75px;
+
+  }
+
+
+  .bendes{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .bentext{
+    position: relative;
+    left: -200px;
+  }
