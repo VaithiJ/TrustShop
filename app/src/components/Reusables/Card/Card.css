@@ -18,6 +18,8 @@
   display: grid;
 
   grid-template-columns: repeat(2, 1fr);
+  grid-gap: 50px;
+  background-color: #fafafa;
 }
 
 /* .card {
@@ -44,13 +46,9 @@
   max-width: 450px;
 
   border-radius: 0.5rem;
-
-  background-color: #ffffff;
-
+  background-color: #fff;
   box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
-
-  border: 1px solid #dedcfd;
-
+  border: 1px solid transparent;
   margin-bottom: 1rem;
 
   margin-left: 25px;
@@ -58,25 +56,7 @@
   margin-top: 50px;
 
   transition: transform 0.3s ease;
-
-  position: relative;
 }
-
-.sitecard:hover {
-  transform: translateY(-5px);
-
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
-}
-
-/* .sitecard:hover {
-
-  transform: scale(1.05);
-
-  border: 3px solid #c1bcff;
-
-  cursor: pointer;
-
-} */
 
 .card:hover {
   transform: translateY(-5px);
