@@ -10,6 +10,7 @@ import { useNavigate } from "react-router-dom";
 
 const HomePage = () => {
   const navigate = useNavigate();
+
   const gotoshop = () => {
     navigate("/shop");
   };
@@ -17,21 +18,23 @@ const HomePage = () => {
   return (
     <div>
       <NavBar />
-      <img className="cartImage" src={black} />
+      <div>
+        <div className="gradient-overlay"></div>
+        <img className="cartImage" src={black} />
+      </div>
       <div className="exp">
-        <h2 className="allinone">Find your E-commerce</h2>
+        <h2 className="allinone">All in one E-commerce</h2>
         <h4 className="buysell">
-          Empowering Secure and Transparent E-commerce on the Blockchain !
+          Buy and sell any item for different categories
         </h4>
         <button className="viewmoree" onClick={gotoshop}>
           View More
         </button>
       </div>
       <div>
-        <br />
-        <br />
         <div className="abtcard">
           <Roles />
+
           <div className="benefits">
             <br />
             <h1>Advantages</h1>
@@ -39,6 +42,7 @@ const HomePage = () => {
               On leveraging our platform, the customer can create his own
               business and get profited{" "}
             </p>
+
             <div className="bendes">
               <img
                 style={{
@@ -55,6 +59,7 @@ const HomePage = () => {
                 <h2 className="bentext">Benefits</h2>
                 <div className="linee"></div>
                 <div className="lineee"></div>
+
                 <ul>
                   <p
                     style={{
@@ -98,17 +103,18 @@ const HomePage = () => {
             </div>
           </div>
         </div>
-
         <br />
-
         <br />
-
-        <h1 style={{ position: "relative", left: "-398px" }}>
+        <h1 style={{ position: "relative", left: "-398px", top: "100px" }}>
           Ecommerce in our platform
         </h1>
-
         <div
-          style={{ width: "1200px", position: "relative", left: "70px" }}
+          style={{
+            width: "1200px",
+            position: "relative",
+            left: "70px",
+            top: "80px",
+          }}
           className="linee"
         ></div>
 

@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
-.cartImage{
-    width:550px;
-     height:450px;
-      top:105px;
-      position:relative;
-      left: 300px;
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans&display=swap");
+.cartImage {
+  width: 550px;
+  height: 450px;
+  top: 105px;
+  position: relative;
+  left: 300px;
 }
 /* .cartImage {
   position: relative;
@@ -14,31 +14,30 @@
   top: 30px;
 } */
 
-.exp{
-    position: relative;
-    top: -370px;
-    font-family: "Heebo";
-    left: -600px;
+.exp {
+  position: relative;
+  top: -320px;
+  font-family: "Heebo";
+  left: -600px;
 }
 
-.viewmoree{
-    width: 150px;
-    height: 60px;
-    position: relative;
-    left: 50px;
-    top:-30px;
-    border-radius: 10px;
-    background-color: rgb(32, 1, 119);
-    cursor: pointer;
-    border: none;
-    font-family: Heebo;
-    color: white;
+/* .viewmoree {
+  width: 150px;
+  height: 60px;
+  position: relative;
+  left: 50px;
+  top: -30px;
+  border-radius: 10px;
+  background-color: rgb(32, 1, 119);
+  cursor: pointer;
+  border: none;
+  font-family: Heebo;
+  color: white;
 }
 
 .viewmoree:hover {
   background-color: rgb(58, 146, 218);
 } */
-
 .viewmoree {
   padding-left: 33px;
   padding-right: 33px;
@@ -52,7 +51,7 @@
   cursor: pointer;
   transition: 0.4s;
   margin-top: 50px;
-  margin-left: 530px;
+  margin-left: 535px;
   width: 130px;
   height: 40px;
 }
@@ -123,10 +122,10 @@
   .abtcard{
     width: 1200px;
     height: 1100px;
-    background-image: linear-gradient(to right, #8cc3f0, #2b5380);
+    background-image: linear-gradient(to right, #054981, #032245);
     position: relative;
+    top: -20px;
     left: 80px;
-    bottom: 200px;
     border-radius: 10px;
   }
 .linee{

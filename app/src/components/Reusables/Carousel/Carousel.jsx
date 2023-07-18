@@ -21,30 +21,20 @@ const Carousel = () => {
       scrollInterval = setInterval(() => {
         carousel.scrollLeft += scrollAmount;
 
-        // Check if the scroll position has reached the end
+        // Check if the scroll position has reached the end and reset if necessary
         if (
-          carousel.scrollLeft + carousel.clientWidth >=
-          carousel.scrollWidth
+          carousel.scrollLeft >=
+          carousel.scrollWidth - carousel.clientWidth
         ) {
-          // Reset the scroll position to the beginning
-          carousel.scrollLeft = 0;
+          carousel.scrollTo({ left: 0, behavior: "smooth" });
         }
       }, 10); // Adjust the scroll interval as needed
     };
-
-    const stopScrolling = () => {
-      clearInterval(scrollInterval);
-    };
-
-    carousel.addEventListener("mouseover", stopScrolling);
-    carousel.addEventListener("mouseout", startScrolling);
 
     startScrolling();
 
     return () => {
       clearInterval(scrollInterval);
-      carousel.removeEventListener("mouseover", stopScrolling);
-      carousel.removeEventListener("mouseout", startScrolling);
     };
   }, []);
 
