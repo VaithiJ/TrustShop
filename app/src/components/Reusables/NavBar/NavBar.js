@@ -30,7 +30,7 @@ window.location.reload()
   const popupTimeout = useRef(null);
 
   const verifypagee = () => {
-    window.open("http://localhost:8080/verification", "_blank");
+    navigate("/shop")
   };
 
   const handleSellVerify = () => {

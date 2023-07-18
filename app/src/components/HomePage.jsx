@@ -5,15 +5,22 @@ import earth from "../Images/black.jpg"
 import doll from "../Images/doll.jpg"
 import "./HomePage.css"
 import Roles from './Reusables/Roles/Roles'
+import Carousel from './Reusables/Carousel/Carousel'
+import { useNavigate } from 'react-router-dom'
+
 const HomePage = () => {
-  return (
+    const navigate = useNavigate();
+
+    const gotoshop = () => {
+        navigate("/shop")
+      };  return (
     <div>
         <NavBar/>
         <img  className='cartImage' src={black}/>
         <div className='exp'>
-        <h2 className='allinone'>All in one commerce</h2>
+        <h2 className='allinone'>All in one E-commerce</h2>
         <h4 className='buysell'>Buy and sell any item for different categories</h4>
-<button className='viewmoree'>View More</button>
+<button className='viewmoree' onClick={gotoshop}>View More</button>
 </div>
 <div>
             <div className='abtcard'>
@@ -43,6 +50,12 @@ const HomePage = () => {
                     </div>
                 </div>
             </div>
+            <br/>
+            <br/>
+            <h1 style={{position:"relative", left:"-398px"}}>Ecommerce in our platform</h1>
+            <div style={{width:"1200px", position:"relative", left:"70px"}} className='linee'></div>
+
+            <Carousel/>
         </div>
     </div>
   )

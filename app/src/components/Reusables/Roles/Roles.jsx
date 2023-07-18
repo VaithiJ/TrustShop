@@ -25,7 +25,7 @@ const Roles = () => {
             <h3 style={{position:"relative", top:"100px", left:"-150px"}}>Buyer</h3>
           </div>
           <div className="second-content">
-            <h6>Being a buyer, a buyer can buy any products in the ecommerce site</h6>
+            <h6>Being a buyer, a customer can buy any products in the ecommerce site</h6>
           </div>
          
         </div>
@@ -37,7 +37,7 @@ const Roles = () => {
             <h3 style={{position:"relative", top:"100px", left:"-150px"}}>Seller</h3>
           </div>
           <div className="second-content">
-            <h6>Being a buyer, a buyer can buy any products in the ecommerce site</h6>
+            <h6>Being a Seller, a customer can sell any products in the ecommerce site</h6>
           </div>
           
         </div>
@@ -49,7 +49,7 @@ const Roles = () => {
             <h3 style={{position:"relative", top:"100px", left:"-150px"}}>Verifier</h3>
           </div>
           <div className="second-content">
-            <h6>Being a buyer, a buyer can buy any products in the ecommerce site</h6>
+            <h6>Being a verifier, a customer can verify any products in the ecommerce site</h6>
           </div>
          
         </div>

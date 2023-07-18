@@ -8,13 +8,17 @@ import realchain from "./Logo/realchain.png";
 import petchain from "./Logo/petchain.png";
 import verified from "./Logo/verified.png";
 import thrustshop from "./Logo/thrustshop.png";
+import NavBar from "../NavBar/NavBar";
 
 function Card() {
   return (
-    <div className="allapp">
+    <div>
+      <NavBar/>
+    <div className="allapp" style={{position:"relative", top:"120px"}}>
+
       {/* <h3>Our Applications</h3> */}
       <div className="allcarddiv">
-        <div className="card">
+        <div className="sitecard">
           <img className="siteimage" src={carsvalley} alt="" />
           <div className="content">
             <p className="desc">
@@ -29,7 +33,7 @@ function Card() {
           </div>
         </div>
 
-        <div className=" card">
+        <div className=" sitecard">
           <img className="siteimage" src={block} alt="" />
           <div className="content">
             <p className="desc">
@@ -43,7 +47,7 @@ function Card() {
           </div>
         </div>
 
-        <div className=" card">
+        <div className=" sitecard">
           <img className="siteimage" src={vastra} alt="" />
           <div className="content">
             <p className="desc">
@@ -57,10 +61,10 @@ function Card() {
           </div>
         </div>
 
-        <div className=" card">
+        <div className=" sitecard">
           <img className="siteimage" src={art} alt="" />
           <div className="content">
-            <p className="desc"></p>
+            <p className="desc">A premier platform for buying and selling verified and authentic paintings</p>
             <a className="action" href="#">
               Visit Site
               <span aria-hidden="true">→</span>
@@ -68,10 +72,12 @@ function Card() {
           </div>
         </div>
 
-        <div className=" card">
+        <div className=" sitecard">
           <img className="siteimage" src={realchain} alt="" />
           <div className="content">
-            <p className="desc"></p>
+            <p className="desc">
+
+Redefining Real Estate Verification with Web3 and Blockchain!</p>
             <a className="action" href="#">
               Visit Site
               <span aria-hidden="true">→</span>
@@ -79,7 +85,7 @@ function Card() {
           </div>
         </div>
 
-        <div className=" card">
+        <div className=" sitecard">
           <img className="siteimage" src={petchain} alt="" />
           <div className="content">
             <p className="desc">
@@ -94,7 +100,7 @@ function Card() {
           </div>
         </div>
 
-        <div className=" card">
+        <div className=" sitecard">
           <img className="siteimage" src={verified} alt="" />
           <div className="content">
             <p className="desc">
@@ -110,7 +116,7 @@ function Card() {
           </div>
         </div>
 
-        <div className=" card">
+        <div className=" sitecard">
           <img className="siteimage" src={thrustshop} alt="" />
           <div className="content">
             <p className="desc">
@@ -125,6 +131,7 @@ function Card() {
           </div>
         </div>
       </div>
+    </div>
     </div>
   );
 }

@@ -19,13 +19,13 @@
     width: 150px;
     height: 60px;
     position: relative;
-    left: 70px;
+    left: 50px;
     top:-30px;
     border-radius: 10px;
     background-color: rgb(32, 1, 119);
     cursor: pointer;
     border: none;
-    font-family: Oxygen;
+    font-family: Heebo;
     color: white;
 }
 
@@ -57,7 +57,7 @@
 
   .buysell {
     position: relative;
-    left: 620px;
+    left: 590px;
     width: 500px;
     color: #054981;
     border: 2px solid transparent;
