@@ -2,7 +2,9 @@ import React from "react";
 import NavBar from "./Reusables/NavBar/NavBar";
 import black from "../Images/econ.gif";
 import earth from "../Images/black.jpg";
-import doll from "../Images/doll.jpg";
+
+import doll from "../Images/e-commerce.jpg";
+
 import "./HomePage.css";
 import Roles from "./Reusables/Roles/Roles";
 import Carousel from "./Reusables/Carousel/Carousel";
@@ -18,26 +20,27 @@ const HomePage = () => {
   return (
     <div>
       <NavBar />
-      <div>
-        <div className="gradient-overlay"></div>
-        <img className="cartImage" src={black} />
-      </div>
+      <img className="cartImage" src={black} />
       <div className="exp">
-        <h2 className="allinone">All in one E-commerce</h2>
+        <h2 className="allinone">Find your E-commerce</h2>
         <h4 className="buysell">
-          Buy and sell any item for different categories
+          Empowering Secure and Transparent E-commerce on the Blockchain !
         </h4>
         <button className="viewmoree" onClick={gotoshop}>
           View More
         </button>
       </div>
       <div>
+        <br />
+        <br />
         <div className="abtcard">
           <Roles />
 
           <div className="benefits">
             <br />
-            <h1>Advantages</h1>
+
+            <h1>About</h1>
+
             <p>
               On leveraging our platform, the customer can create his own
               business and get profited{" "}
@@ -48,73 +51,80 @@ const HomePage = () => {
                 style={{
                   width: "400px",
                   position: "relative",
-                  left: "20px",
+
+                  left: "70px",
+
                   borderRadius: "10px",
-                  top: "80px",
+                  top: "100px",
                 }}
                 src={doll}
                 alt="image"
               />
-              <div style={{ position: "relative", top: "60px" }}>
+
+              <div style={{ position: "relative", top: "90px" }}>
                 <h2 className="bentext">Benefits</h2>
+
                 <div className="linee"></div>
+
                 <div className="lineee"></div>
 
-                <ul>
-                  <p
-                    style={{
-                      textAlign: "left",
-                      position: "relative",
-                      left: "15px",
-                    }}
-                  >
+                <ul style={{ marginLeft: "95px" }}>
+                  <li>
+                    <i
+                      className="fas fa-users"
+                      style={{ marginRight: "-38px" }}
+                    ></i>{" "}
                     Various roles available for the customers to take part in
-                  </p>
-                  <p
-                    style={{
-                      textAlign: "left",
-                      position: "relative",
-                      left: "15px",
-                    }}
-                  >
+                  </li>
+                  <br />
+                  <li>
+                    <i
+                      className="fas fa-lock"
+                      style={{ marginRight: "8px" }}
+                    ></i>{" "}
                     Enabled blockchain technology to increase trust and security
-                  </p>
-                  <p
-                    style={{
-                      textAlign: "left",
-                      position: "relative",
-                      left: "15px",
-                    }}
-                  >
+                  </li>
+                  <br />
+                  <li>
+                    <i
+                      className="fas fa-check-circle"
+                      style={{ marginRight: "8px" }}
+                    ></i>{" "}
                     Verifiers verify the products listed on the ecommerce
                     website
-                  </p>
-                  <p
-                    style={{
-                      textAlign: "left",
-                      position: "relative",
-                      left: "15px",
-                    }}
-                  >
+                  </li>
+                  <br />
+                  <li>
+                    <i
+                      className="fas fa-shopping-basket"
+                      style={{ marginRight: "-118px" }}
+                    ></i>{" "}
                     Only verified products are present for sale
-                  </p>
+                  </li>
                 </ul>
               </div>
             </div>
           </div>
         </div>
+
         <br />
+
         <br />
-        <h1 style={{ position: "relative", left: "-398px", top: "100px" }}>
+
+        <h1
+          style={{
+            position: "relative",
+            // left: "-398px",
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+          }}
+        >
           Ecommerce in our platform
         </h1>
+
         <div
-          style={{
-            width: "1200px",
-            position: "relative",
-            left: "70px",
-            top: "80px",
-          }}
+          style={{ width: "1200px", position: "relative", left: "70px" }}
           className="linee"
         ></div>
 

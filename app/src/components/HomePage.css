@@ -69,72 +69,72 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
 .allinone {
-    position: relative;
-    left: 600px;
-    font-size: 60px;
-    width: 700px;
-    color: #054981;
-    animation: colorAnimation 4s infinite alternate;
-  }
-  
-  @keyframes colorAnimation {
-    0% {
-      color: #54a3ff; /* Light blue */
-    }
-    50% {
-      color: #0f316e; /* Dark blue */
-    }
-    100% {
-      color: #54a3ff; /* Light blue */
-    }
-  }
-  
+  position: relative;
+  left: 600px;
+  font-size: 45px;
+  width: 700px;
+  color: #054981;
+  animation: colorAnimation 4s infinite alternate;
+  top: 80px;
+}
 
-  .buysell {
-    position: relative;
-    left: 590px;
-    width: 500px;
-    color: #054981;
-    border: 2px solid transparent;
-    border-radius: 5px;
-    border-width: 5px;
-    top: -50px;
-    font-size: 20px;
+@keyframes colorAnimation {
+  0% {
+    color: #54a3ff; /* Light blue */
   }
-  
-  @keyframes borderAnimation {
-    0% {
-      border-color: transparent;
-    }
-    25% {
-      border-color: transparent;
-      box-shadow: 0 0 10px 10px #54a3ff; /* Blue shadow */
-    }
-    75% {
-      border-color: transparent;
-      box-shadow: 0 0 10px 10px #fff; /* White shadow */
-    }
-    100% {
-      border-color: transparent;
-    }
+  50% {
+    color: #0f316e; /* Dark blue */
   }
-  
-  .abtcard{
-    width: 1200px;
-    height: 1100px;
-    background-image: linear-gradient(to right, #054981, #032245);
-    position: relative;
-    top: -20px;
-    left: 80px;
-    border-radius: 10px;
+  100% {
+    color: #54a3ff; /* Light blue */
   }
-.linee{
-    width: 580px;
-    height: 1px;
-    background-color: red;
-    position: relative;
-    left: 40px;
-    top: -16px;
+}
+
+.buysell {
+  position: relative;
+  left: 690px;
+  width: 500px;
+  color: #054981;
+  border: 2px solid transparent;
+  border-radius: 5px;
+  border-width: 5px;
+  top: 40px;
+  font-size: 17px;
+}
+
+@keyframes borderAnimation {
+  0% {
+    border-color: transparent;
+  }
+  25% {
+    border-color: transparent;
+    box-shadow: 0 0 10px 10px #54a3ff; /* Blue shadow */
+  }
+  75% {
+    border-color: transparent;
+    box-shadow: 0 0 10px 10px #fff; /* White shadow */
+  }
+  100% {
+    border-color: transparent;
+  }
+}
+
+.abtcard {
+  width: 1200px;
+  height: 1100px;
+  background-image: linear-gradient(to right, #054981, #032245);
+  position: relative;
+  top: -20px;
+  left: 80px;
+  border-radius: 10px;
+}
+.linee {
+  width: 500px;
+  height: 1px;
+  background-color: red;
+  position: relative;
+  left: 100px;
+  top: -16px;
 }
 
 .benefits {
@@ -154,5 +154,5 @@
 
 .bentext {
   position: relative;
-  left: -200px;
+  left: -125px;
 }
