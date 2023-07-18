@@ -1,107 +1,49 @@
 import React from 'react'
 import NavBar from './Reusables/NavBar/NavBar'
-
+import black from "../Images/ss.png"
+import earth from "../Images/black.jpg"
+import doll from "../Images/doll.jpg"
+import "./HomePage.css"
+import Roles from './Reusables/Roles/Roles'
 const HomePage = () => {
   return (
     <div>
         <NavBar/>
-        <section className="text-gray-600 body-font">
-  <div className="container px-5 py-24 mx-auto">
-    <div className="flex flex-wrap w-full mb-20">
-      <div className="lg:w-1/2 w-full mb-6 lg:mb-0">
-        <h1 className="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">
-          Pitchfork Kickstarter Taxidermy
-        </h1>
-        <div className="h-1 w-20 bg-indigo-500 rounded" />
-      </div>
-      <p className="lg:w-1/2 w-full leading-relaxed text-gray-500">
-        Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical
-        gentrify, subway tile poke farm-to-table. Franzen you probably haven't
-        heard of them man bun deep jianbing selfies heirloom prism food truck
-        ugh squid celiac humblebrag.
-      </p>
-    </div>
-    <div className="flex flex-wrap -m-4">
-      <div className="xl:w-1/4 md:w-1/2 p-4">
-        <div className="bg-gray-100 p-6 rounded-lg">
-          <img
-            className="h-40 rounded w-full object-cover object-center mb-6"
-            src="https://dummyimage.com/720x400"
-            alt="content"
-          />
-          <h3 className="tracking-widest text-indigo-500 text-xs font-medium title-font">
-            SUBTITLE
-          </h3>
-          <h2 className="text-lg text-gray-900 font-medium title-font mb-4">
-            Chichen Itza
-          </h2>
-          <p className="leading-relaxed text-base">
-            Fingerstache flexitarian street art 8-bit waistcoat. Distillery
-            hexagon disrupt edison bulbche.
-          </p>
-        </div>
-      </div>
-      <div className="xl:w-1/4 md:w-1/2 p-4">
-        <div className="bg-gray-100 p-6 rounded-lg">
-          <img
-            className="h-40 rounded w-full object-cover object-center mb-6"
-            src="https://dummyimage.com/721x401"
-            alt="content"
-          />
-          <h3 className="tracking-widest text-indigo-500 text-xs font-medium title-font">
-            SUBTITLE
-          </h3>
-          <h2 className="text-lg text-gray-900 font-medium title-font mb-4">
-            Colosseum Roma
-          </h2>
-          <p className="leading-relaxed text-base">
-            Fingerstache flexitarian street art 8-bit waistcoat. Distillery
-            hexagon disrupt edison bulbche.
-          </p>
-        </div>
-      </div>
-      <div className="xl:w-1/4 md:w-1/2 p-4">
-        <div className="bg-gray-100 p-6 rounded-lg">
-          <img
-            className="h-40 rounded w-full object-cover object-center mb-6"
-            src="https://dummyimage.com/722x402"
-            alt="content"
-          />
-          <h3 className="tracking-widest text-indigo-500 text-xs font-medium title-font">
-            SUBTITLE
-          </h3>
-          <h2 className="text-lg text-gray-900 font-medium title-font mb-4">
-            Great Pyramid of Giza
-          </h2>
-          <p className="leading-relaxed text-base">
-            Fingerstache flexitarian street art 8-bit waistcoat. Distillery
-            hexagon disrupt edison bulbche.
-          </p>
-        </div>
-      </div>
-      <div className="xl:w-1/4 md:w-1/2 p-4">
-        <div className="bg-gray-100 p-6 rounded-lg">
-          <img
-            className="h-40 rounded w-full object-cover object-center mb-6"
-            src="https://dummyimage.com/723x403"
-            alt="content"
-          />
-          <h3 className="tracking-widest text-indigo-500 text-xs font-medium title-font">
-            SUBTITLE
-          </h3>
-          <h2 className="text-lg text-gray-900 font-medium title-font mb-4">
-            San Francisco
-          </h2>
-          <p className="leading-relaxed text-base">
-            Fingerstache flexitarian street art 8-bit waistcoat. Distillery
-            hexagon disrupt edison bulbche.
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+        <img  className='cartImage' src={black}/>
+        <div className='exp'>
+        <h2 className='allinone'>All in one commerce</h2>
+        <h4 className='buysell'>Buy and sell any item for different categories</h4>
+<button className='viewmoree'>View More</button>
+</div>
+<div>
+            <div className='abtcard'>
+            <Roles/>
 
+                <div className='benefits'>
+                    <br/>
+                <h1>Advantages</h1>
+                <p>On leveraging our platform, the customer can create his own business and get profited </p>
+
+                    <div className='bendes'>
+                        <img style={{width:"400px", position:"relative", left:"20px", borderRadius:"10px", top:"80px"}} src={doll} alt='image'/>
+                        <div style={{position:"relative", top:"60px"}}>
+                            <h2 className='bentext'>Benefits</h2>
+                            <div className='linee'></div>
+                            <div className='lineee'></div>
+
+  <ul>
+   <p style={{textAlign:"left", position:"relative", left:"15px"}}>Various roles available for the customers to take part in</p>
+   <p style={{textAlign:"left", position:"relative", left:"15px"}}>Enabled blockchain technology to increase trust and security</p>
+   <p style={{textAlign:"left", position:"relative", left:"15px"}}>Verifiers verify the products listed on the ecommerce website</p>
+   <p style={{textAlign:"left", position:"relative", left:"15px"}}>Only verified products are present for sale</p>
+  </ul>
+</div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
   )
 }

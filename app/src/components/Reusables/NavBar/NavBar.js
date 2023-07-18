@@ -196,9 +196,9 @@ window.location.reload()
       <div className="sub-nav">
         <Link to="/">Home</Link>
         <Link to="/marketplace"> About</Link>
-        <Link onClick={verifypagee}> Roles</Link>
+        <Link onClick={verifypagee}> Shop</Link>
         {/* <Link to="/adoption">Adoption</Link> */}
-        <Link to="/contact">Shop</Link>
+        <Link to="/contact">Contact Us</Link>
       </div>
       <div className="search-bar">
         <input type="text" placeholder="Search" />
