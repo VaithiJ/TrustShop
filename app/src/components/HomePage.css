@@ -1,12 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
-.cartImage{
-    width:550px;
-     height:450px;
-      top:105px;
-      position:relative;
-      left: 300px;
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans&display=swap");
+.cartImage {
+  width: 550px;
+  height: 450px;
+  top: 105px;
+  position: relative;
+  left: 300px;
 }
 /* .cartImage {
   position: relative;
@@ -15,119 +14,145 @@
   top: 30px;
 } */
 
-.exp{
-    position: relative;
-    top: -320px;
-    font-family: "Heebo";
-    left: -600px;
+.exp {
+  position: relative;
+  top: -320px;
+  font-family: "Heebo";
+  left: -600px;
 }
 
-.viewmoree{
-    width: 150px;
-    height: 60px;
-    position: relative;
-    left: 50px;
-    top:50px;
-    border-radius: 10px;
-    background-color: rgb(32, 1, 119);
-    cursor: pointer;
-    border: none;
-    font-family: "Montserrat", sans-serif;
-    color: white;
+/* .viewmoree {
+  width: 150px;
+  height: 60px;
+  position: relative;
+  left: 50px;
+  top: -30px;
+  border-radius: 10px;
+  background-color: rgb(32, 1, 119);
+  cursor: pointer;
+  border: none;
+  font-family: Heebo;
+  color: white;
 }
 
-.viewmoree:hover{
-    background-color: rgb(58, 146, 218);
+.viewmoree:hover {
+  background-color: rgb(58, 146, 218);
+} */
+.viewmoree {
+  padding-left: 33px;
+  padding-right: 33px;
+  padding-bottom: 16px;
+  padding-top: 11px;
+  border-radius: 9px;
+  background: #d5f365;
+  border: none;
+  font-family: inherit;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.4s;
+  margin-top: 50px;
+  margin-left: 535px;
+  width: 130px;
+  height: 40px;
 }
 
+.viewmoree:hover {
+  box-shadow: 7px 5px 56px -14px #c3d900;
+}
+
+.viewmoree:active {
+  transform: scale(0.97);
+  box-shadow: 7px 5px 56px -10px #c3d900;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
 .allinone {
-    position: relative;
-    left: 600px;
-    font-size: 60px;
-    width: 700px;
-    color: #054981;
-    animation: colorAnimation 4s infinite alternate;
-  }
-  
-  @keyframes colorAnimation {
-    0% {
-      color: #54a3ff; /* Light blue */
-    }
-    50% {
-      color: #0f316e; /* Dark blue */
-    }
-    100% {
-      color: #54a3ff; /* Light blue */
-    }
-  }
-  
-
-  .buysell {
-    position: relative;
-    left: 590px;
-    width: 500px;
-    color: #054981;
-    border: 2px solid transparent;
-    border-radius: 5px;
-    border-width: 5px;
-    top: -50px;
-    font-size: 20px;
-  }
-  
-  @keyframes borderAnimation {
-    0% {
-      border-color: transparent;
-    }
-    25% {
-      border-color: transparent;
-      box-shadow: 0 0 10px 10px #54a3ff; /* Blue shadow */
-    }
-    75% {
-      border-color: transparent;
-      box-shadow: 0 0 10px 10px #fff; /* White shadow */
-    }
-    100% {
-      border-color: transparent;
-    }
-  }
-  
-  .abtcard{
-    width: 1200px;
-    height: 1100px;
-    background-image: linear-gradient(to right, #054981, #032245);
-    position: relative;
-    top: 100px;
-    left: 80px;
-    border-radius: 10px;
-  }
-.linee{
-    width: 580px;
-    height: 1px;
-    background-color: red;
-    position: relative;
-    left: 40px;
-    top: -16px;
+  position: relative;
+  left: 600px;
+  font-size: 45px;
+  width: 700px;
+  color: #054981;
+  animation: colorAnimation 4s infinite alternate;
+  top: 80px;
 }
 
-
-  .benefits{
-    background-color: #f3f3f3;
-    border-radius: 10px;
-    position: relative;
-    top: 50px;
-    width: 1050px;
-    height: 600px;
-    left: 75px;
-
+@keyframes colorAnimation {
+  0% {
+    color: #54a3ff; /* Light blue */
   }
-
-
-  .bendes{
-    display: flex;
-    flex-direction: row;
+  50% {
+    color: #0f316e; /* Dark blue */
   }
-
-  .bentext{
-    position: relative;
-    left: -200px;
+  100% {
+    color: #54a3ff; /* Light blue */
   }
+}
+
+.buysell {
+  position: relative;
+  left: 690px;
+  width: 500px;
+  color: #054981;
+  border: 2px solid transparent;
+  border-radius: 5px;
+  border-width: 5px;
+  top: 40px;
+  font-size: 17px;
+}
+
+@keyframes borderAnimation {
+  0% {
+    border-color: transparent;
+  }
+  25% {
+    border-color: transparent;
+    box-shadow: 0 0 10px 10px #54a3ff; /* Blue shadow */
+  }
+  75% {
+    border-color: transparent;
+    box-shadow: 0 0 10px 10px #fff; /* White shadow */
+  }
+  100% {
+    border-color: transparent;
+  }
+}
+
+.abtcard {
+  width: 1200px;
+  height: 1100px;
+  background-image: linear-gradient(to right, #054981, #032245);
+  position: relative;
+  top: -20px;
+  left: 80px;
+  border-radius: 10px;
+}
+.linee {
+  width: 500px;
+  height: 1px;
+  background-color: red;
+  position: relative;
+  left: 100px;
+  top: -16px;
+}
+
+.benefits {
+  background-color: #f3f3f3;
+  border-radius: 10px;
+  position: relative;
+  top: 150px;
+  width: 1050px;
+  height: 600px;
+  left: 75px;
+}
+
+.bendes {
+  display: flex;
+  flex-direction: row;
+}
+
+.bentext {
+  position: relative;
+  left: -122px;
+}

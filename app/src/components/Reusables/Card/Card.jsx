@@ -9,15 +9,20 @@ import petchain from "./Logo/petchain.png";
 import verified from "./Logo/verified.png";
 import thrustshop from "./Logo/thrustshop.png";
 import NavBar from "../NavBar/NavBar";
+import black from "../../../Images/eco.jpg"
 
 function Card() {
   return (
     <div>
       <NavBar/>
-    <div className="allapp" style={{position:"relative", top:"120px"}}>
+      <h1 style={{position:"relative", top:"120px"}}>Our platform consists of these following applications</h1>
+
+    <div className="allapp" style={{position:"relative", top:"100px"}}>
+
 
       {/* <h3>Our Applications</h3> */}
       <div className="allcarddiv">
+
         <div className="sitecard">
           <img className="siteimage" src={carsvalley} alt="" />
           <div className="content">
@@ -26,7 +31,7 @@ function Card() {
               secondhand cars. With blockchain technology, we provide enhanced
               security, transparency, and trust for our users.
             </p>
-            <a className="action" href="#">
+            <a style={{position:"relative", top:"10px"}} className="action" href="#">
               Visit Site
               <span aria-hidden="true">→</span>
             </a>
@@ -40,7 +45,7 @@ function Card() {
               A blockchain-powered marketplace for verified business listings,
               ensuring trust and transparency.
             </p>
-            <a className="action" href="#">
+            <a style={{position:"relative", top:"50px"}} className="action" href="#">
               Visit Site
               <span aria-hidden="true">→</span>
             </a>
@@ -54,7 +59,7 @@ function Card() {
               Vasthra aims to create a trusted platform where only verified and
               authentic Kanchipuram silk sarees are traded.
             </p>
-            <a className="action" href="#">
+            <a style={{position:"relative", top:"10px"}} className="action" href="#">
               Visit Site
               <span aria-hidden="true">→</span>
             </a>
@@ -65,7 +70,7 @@ function Card() {
           <img className="siteimage" src={art} alt="" />
           <div className="content">
             <p className="desc">A premier platform for buying and selling verified and authentic paintings</p>
-            <a className="action" href="#">
+            <a style={{position:"relative", top:"30px"}} className="action" href="#">
               Visit Site
               <span aria-hidden="true">→</span>
             </a>
@@ -78,7 +83,7 @@ function Card() {
             <p className="desc">
 
 Redefining Real Estate Verification with Web3 and Blockchain!</p>
-            <a className="action" href="#">
+            <a style={{position:"relative", top:"50px"}} className="action" href="#">
               Visit Site
               <span aria-hidden="true">→</span>
             </a>
@@ -93,7 +98,7 @@ Redefining Real Estate Verification with Web3 and Blockchain!</p>
               Verifiers ensure pet authenticity, while blockchain records
               verified pet data
             </p>
-            <a className="action" href="#">
+            <a style={{position:"relative", top:"10px"}} className="action" href="#">
               Visit Site
               <span aria-hidden="true">→</span>
             </a>
@@ -109,7 +114,7 @@ Redefining Real Estate Verification with Web3 and Blockchain!</p>
               revolution for a future of trust and success. Get hired with
               certainty, only on "Verified Careers.
             </p>
-            <a className="action" href="#">
+            <a style={{position:"relative", top:"10px"}} className="action" href="#">
               Visit Site
               <span aria-hidden="true">→</span>
             </a>
@@ -124,7 +129,7 @@ Redefining Real Estate Verification with Web3 and Blockchain!</p>
               accessing bike-related information, connecting with local biking
               communities, and exploring biking events and trails.
             </p>
-            <a className="action" href="#">
+            <a style={{position:"relative", top:"30px"}} className="action" href="#">
               Visit Site
               <span aria-hidden="true">→</span>
             </a>
