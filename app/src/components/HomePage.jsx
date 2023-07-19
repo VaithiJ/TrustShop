@@ -33,7 +33,15 @@ const HomePage = () => {
       <div>
         <br />
         <br />
+
         <div className="abtcard">
+          <br />
+          <div className="titleseller">
+            <div className="title">Buyer</div>
+            <div className="title">Seller</div>
+            <div className="title">Verifier</div>
+          </div>
+
           <Roles />
 
           <div className="benefits">
