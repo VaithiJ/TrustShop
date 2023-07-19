@@ -1,6 +1,6 @@
 import React from "react";
 import NavBar from "./Reusables/NavBar/NavBar";
-import black from "../Images/econ.gif";
+import black from "../Images/ecommerce.png";
 import earth from "../Images/black.jpg";
 
 import doll from "../Images/e-commerce.jpg";
@@ -35,12 +35,11 @@ const HomePage = () => {
         <br />
 
         <div className="abtcard">
-          <br />
-          <div className="titleseller">
+          {/* <div className="titleseller">
             <div className="title">Buyer</div>
             <div className="title">Seller</div>
             <div className="title">Verifier</div>
-          </div>
+          </div> */}
 
           <Roles />
 
@@ -49,7 +48,7 @@ const HomePage = () => {
 
             <h1>About</h1>
 
-            <p>
+            <p className="outtext">
               On leveraging our platform, the customer can create his own
               business and get profited{" "}
             </p>
@@ -77,37 +76,24 @@ const HomePage = () => {
                 <div className="lineee"></div>
 
                 <ul style={{ marginLeft: "95px" }}>
-                  <li>
-                    <i
-                      className="fas fa-users"
-                      style={{ marginRight: "-38px" }}
-                    ></i>{" "}
-                    Various roles available for the customers to take part in
+                  <li className="intext">
+                    <i style={{ marginRight: "8px" }}></i> Various roles
+                    available for the customers to take part in
                   </li>
                   <br />
-                  <li>
-                    <i
-                      className="fas fa-lock"
-                      style={{ marginRight: "8px" }}
-                    ></i>{" "}
-                    Enabled blockchain technology to increase trust and security
+                  <li className="intext">
+                    <i style={{ marginRight: "8px" }}></i> Enabled blockchain
+                    technology to increase trust and security
                   </li>
                   <br />
-                  <li>
-                    <i
-                      className="fas fa-check-circle"
-                      style={{ marginRight: "8px" }}
-                    ></i>{" "}
-                    Verifiers verify the products listed on the ecommerce
-                    website
+                  <li className="intext">
+                    <i style={{ marginRight: "8px" }}></i> Verifiers verify the
+                    products listed on the ecommerce website
                   </li>
                   <br />
-                  <li>
-                    <i
-                      className="fas fa-shopping-basket"
-                      style={{ marginRight: "-118px" }}
-                    ></i>{" "}
-                    Only verified products are present for sale
+                  <li className="intext">
+                    <i style={{ marginRight: "8px" }}></i> Only verified
+                    products are present for sale
                   </li>
                 </ul>
               </div>
@@ -119,17 +105,7 @@ const HomePage = () => {
 
         <br />
 
-        <h1
-          style={{
-            position: "relative",
-            // left: "-398px",
-            display: "flex",
-            justifyContent: "center",
-            alignItems: "center",
-          }}
-        >
-          Ecommerce in our platform
-        </h1>
+        <h1 className="OURPLATFORM">Ecommerce in our platform</h1>
 
         <div
           style={{ width: "1200px", position: "relative", left: "70px" }}

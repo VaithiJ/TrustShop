@@ -49,14 +49,6 @@ const Carousel = () => {
       <img className="logoimage" src={verified} alt="Logo 7" />
       <img className="logoimage" src={thrustshop} alt="Logo 8" />
       {/* Add duplicate images if you want the scrolling to be continuous */}
-      <img className="logoimage" src={carsvalley} alt="Logo 1" />
-      <img className="logoimage" src={vastra} alt="Logo 2" />
-      <img className="logoimage" src={block} alt="Logo 3" />
-      <img className="logoimage" src={art} alt="Logo 4" />
-      <img className="logoimage" src={realchain} alt="Logo 5" />
-      <img className="logoimage" src={petchain} alt="Logo 6" />
-      <img className="logoimage" src={verified} alt="Logo 7" />
-      <img className="logoimage" src={thrustshop} alt="Logo 8" />
     </div>
   );
 };

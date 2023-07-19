@@ -3,9 +3,9 @@
 .cartImage {
   width: 550px;
   height: 450px;
-  top: 105px;
+  top: 150px;
   position: relative;
-  left: 300px;
+  left: 330px;
 }
 /* .cartImage {
   position: relative;
@@ -13,7 +13,9 @@
   width: 100%;
   top: 30px;
 } */
-
+body {
+  background-color: #00416a;
+}
 .exp {
   position: relative;
   top: -320px;
@@ -80,13 +82,13 @@
 
 @keyframes colorAnimation {
   0% {
-    color: #54a3ff; /* Light blue */
+    color: #ffbf00; /* Yellow */
   }
   50% {
-    color: #0f316e; /* Dark blue */
+    color: #ffd700; /* Golden Yellow */
   }
   100% {
-    color: #54a3ff; /* Light blue */
+    color: #fcf55f; /* Yellowish Gold */
   }
 }
 
@@ -94,7 +96,7 @@
   position: relative;
   left: 690px;
   width: 500px;
-  color: #054981;
+  color: #ffffff;
   border: 2px solid transparent;
   border-radius: 5px;
   border-width: 5px;
@@ -119,10 +121,75 @@
   }
 }
 
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@300&display=swap");
+.outtext {
+  font-family: "Heebo", sans-serif;
+  line-height: normal;
+  vertical-align: baseline;
+  letter-spacing: normal;
+  word-spacing: 0%;
+  margin: 0px 298.125px;
+  padding: 0%;
+  font-weight: 500;
+  font-style: normal;
+  font-variant: normal;
+  font-kerning: auto;
+  font-optical-sizing: auto;
+  font-stretch: 100%;
+  font-variation-settings: normal;
+  font-feature-settings: normal;
+  text-transform: none;
+  text-decoration: none solid rgb(25, 72, 109);
+  text-align: center;
+  text-indent: 0px;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Arimo&display=swap");
+
+.OURPLATFORM {
+  position: relative;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border: "2px solid transparent";
+  /* font-family: "Heebo", sans-serif; */
+  font-family: "Arimo", sans-serif;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Oxygen:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alegreya&display=swap");
+
+.intext {
+  font-family: "Alegreya", serif;
+  line-height: 23.008px;
+  vertical-align: baseline;
+  letter-spacing: normal;
+  word-spacing: 0px;
+  margin: 0px;
+  padding: 0px;
+  font-size: 18px;
+
+  font-weight: 500;
+  font-style: normal;
+  font-variant: normal;
+  font-kerning: auto;
+  font-optical-sizing: auto;
+  font-stretch: 100%;
+  font-variation-settings: normal;
+  font-feature-settings: normal;
+  text-transform: none;
+  text-decoration: none solid rgb(28, 117, 188);
+  text-align: start;
+  text-indent: 0px;
+}
+
 .abtcard {
   width: 1200px;
   height: 1100px;
-  background-image: linear-gradient(to right, #054981, #032245);
+  background-image: linear-gradient(to right, #ffffff, #f6df82);
+  /* background-image: linear-gradient(to right, #054981, #032245); */
   position: relative;
   top: -20px;
   left: 80px;
@@ -131,7 +198,7 @@
 .linee {
   width: 500px;
   height: 1px;
-  background-color: red;
+  background-color: #ffbf00;
   position: relative;
   left: 100px;
   top: -16px;
