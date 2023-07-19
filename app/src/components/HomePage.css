@@ -71,7 +71,7 @@
 .allinone {
   position: relative;
   left: 600px;
-  font-size: 45px;
+  font-size: 55px;
   width: 700px;
   color: #054981;
   animation: colorAnimation 4s infinite alternate;
@@ -99,7 +99,7 @@
   border-radius: 5px;
   border-width: 5px;
   top: 40px;
-  font-size: 17px;
+  font-size: 22px;
 }
 
 @keyframes borderAnimation {
@@ -155,4 +155,22 @@
 .bentext {
   position: relative;
   left: -125px;
+}
+
+.titleseller {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1050px;
+  height: 50px;
+  background-color: #54a3ff;
+  margin: auto;
+  z-index: 100;
+  border-radius: 10px;
+}
+
+.title {
+  font-size: 18px;
+  color: white;
+  margin: 0 10px;
 }
